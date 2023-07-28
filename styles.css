@@ -1,0 +1,85 @@
+/* Custom CSS for the home page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Optional: Add styles for the navigation bar (uncomment if you're using the Navbar) */
+/* 
+.navbar {
+    margin-bottom: 20px;
+}
+*/
+
+/* Optional: Add styles for links */
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+.card-deck .card {
+    animation: fadeInUp 1s ease;
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animated-card {
+    animation: fadeInUp 2s ease;
+    background-color: #c2c1ca; /* Set a different background color */
+    box-shadow: 0 4px 8px rgba(31, 15, 15, 0.1); /* Add a subtle box-shadow */
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.card-img-top {
+    
+    width: 100%; /* Make the images fill the width of the card */
+    height: 200px; /* Set the desired height for the images */
+    object-fit: cover; /* Crop the images to fit the container */
+    border-top-left-radius: 15px; /* Add rounded corners with a radius of 15 pixels */
+    border-top-right-radius: 15px; /* Add rounded corners with a radius of 15 pixels */
+}
+.card {
+    border-radius: 15px; /* Add rounded corners to the cards */
+}
+
+.main-content {
+    padding: 80px; /* Adjust the value to set the desired padding */
+    /* Or use margin instead, if you prefer */
+}
