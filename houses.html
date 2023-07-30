@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Nos maisons</title>
     <!-- Add Bootstrap CSS link here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Add your custom styles (styles.css) link here if you have any -->
@@ -61,43 +61,37 @@
         </div>
     </nav>
 
-  <div class="container">
-    <h2>Nous rejoindre</h2>
-    <div class="contact-info">
-      <h4>Adresse:</h4>
-      <p class="copy-text" data-copy="Parc Angrignon, Montréal">Parc Angrignon, Montréal</p>
+  <!-- House cards section -->
+  <div class="container mt-4">
+    <div class="row justify-content-center">
+      <!-- House 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card text-center">
+          <a href="house1.html"> <!-- Link to house1.html -->
+            <img src="path_to_house1_image.jpg" class="card-img-top img-fluid" alt="House 1">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">House 1</h5>
+            <p class="card-text">Description of House 1...</p>
+          </div>
+        </div>
+      </div>
 
-      <h4>Tel:</h4>
-      <p class="copy-text" data-copy="(514) 942-8957">(514) 942-8957</p>
+      <!-- House 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card text-center">
+          <a href="house2.html"> <!-- Link to house2.html -->
+            <img src="path_to_house2_image.jpg" class="card-img-top img-fluid" alt="House 2">
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">House 2</h5>
+            <p class="card-text">Description of House 2...</p>
+          </div>
+        </div>
+      </div>
 
-      <h4>Email:</h4>
-      <p class="copy-text" data-copy="maisoncommunemtl@gmail.com">maisoncommunemtl@gmail.com</p>
+      <!-- Add more house cards as needed -->
     </div>
-
-    <h2>Écrivez-nous</h2>
-    <form action="process_contact.php" method="POST" enctype="multipart/form-data">
-      <div class="form-group">
-        <label for="name">Nom:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
-
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-
-      <div class="form-group">
-        <label for="comments">Commentaires:</label>
-        <textarea id="comments" name="comments" rows="4" required></textarea>
-      </div>
-
-      <div class="form-group">
-        <label for="resume">CV (format PDF):</label>
-        <input type="file" id="resume" name="resume" accept=".pdf">
-      </div>
-
-      <button type="submit">Soumettre</button>
-    </form>
   </div>
 
    <!-- Footer section -->
@@ -114,5 +108,5 @@
     <script src="script.js"></script>
 </body>
 
-</html>
+
 </html>

@@ -1,26 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maison d'or</title>
+    <title>Maison commune</title>
     <!-- Add Bootstrap CSS link here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Add your custom styles (styles.css) link here if you have any -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Russo+One">
 </head>
+
 <body>
-    <div class="jumbotron jumbotron-fluid text-center mb-0">
+    <div class="jumbotron jumbotron-fluid text-left mb-0">
         <div class="container-fluid">
-            <h1 class="display-4">Bienvenue à la maison commune</h1>
-            <p class="lead">Une habitation où bien manger, s'activer physiquement, se détendre, avoir un espace de travail convivial, et le tout sans contrainte d'intimité va de pair</p>
+            <div class="row align-items-center">
+                <div class="col-md-2 d-flex justify-content-center">
+                    <a href="index.html">
+                        <img src="img/M.png" alt="MC" class="smaller-logo img-fluid">
+                      </a>
+                </div>
+                <div class="col-md-10">
+                    <h1 class="display-4 text-left">Bienvenue à la maison commune</h1>
+                    <p class="lead">La cohabitation repensée où cuisiner, s'activer physiquement, se détendre, et travailler de chez soi n'est pas ennuyant, sans compromettre son intimité.</p>
+                </div>
+            </div>
         </div>
     </div>
-    
+
     <!-- Navbar (if you want to include one) -->
     <!-- Example:-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html">La maison d'or</a>
+
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -31,97 +45,109 @@
                     <a class="nav-link" href="index.html">Accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">En savoir plus</a>
+                    <a class="nav-link" href="houses.html">Nos maisons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">S'inscrire</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="events.html">Évènements</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="contact.html">Contact</a>
                 </li>
+
+            
             </ul>
         </div>
     </nav>
-    
+
     <!-- Communal Room Types -->
     <div class="container-fluid mt-5 main-content">
-        <h2>Les 4 salles communes du concept "Gym - bureau - snack bar - Lounge"</h2>
-        <div class="card-deck">
-            <!-- Card 1: Lounge Room -->
-            <div class="card text-center animated-card">
-                <img src="img/lounge.png" class="card-img-top" alt="Lounge Room">
-                <div class="card-body">
-                    <h5 class="card-title">Le lounge</h5>
-                    <p class="card-text">Le lounge pour relaxer, jouer, socialiser, lire...</p>
+        <h2 class="text-center">Les 4 salles communes du concept "Gym - bureau - snack bar - Lounge"</h2>
+
+
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-5">
+                    <!-- Card 1: Lounge Room -->
+                    <div class="card text-center animated-card h-100">
+                        <img src="img/lounge.png" class="card-img-top" alt="Lounge Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Le lounge</h5>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-5">
+                    <!-- Card 2: Kitchen Room -->
+                    <div class="card text-center animated-card h-100">
+                        <img src="img/cuisine.png" class="card-img-top" alt="Kitchen Room">
+                        <div class="card-body">
+                            <h5 class="card-title">La cuisine</h5>
+
+                        </div>
+                    </div>
                 </div>
             </div>
 
-            <!-- Card 2: Kitchen Room -->
-            <div class="card text-center animated-card">
-                <img src="img/cuisine.png" class="card-img-top" alt="Kitchen Room">
-                <div class="card-body">
-                    <h5 class="card-title">La cuisine</h5>
-                    <p class="card-text">La cuisine, ou snack bar pour acheter à manger ou cuisiner.</p>
-                </div>
-            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 mb-4">
+                    <!-- Card 3: Study Room -->
+                    <div class="card text-center animated-card h-100">
+                        <img src="img/work.png" class="card-img-top" alt="Study Room">
+                        <div class="card-body">
+                            <h5 class="card-title">L'espace de travail</h5>
 
-            <!-- Card 3: Study Room -->
-            <div class="card text-center animated-card">
-                <img src="img/work.png" class="card-img-top" alt="Study Room">
-                <div class="card-body">
-                    <h5 class="card-title">L'espace de travail</h5>
-                    <p class="card-text">L'espace de travail du type coworking space.</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <div class="col-md-4 mb-4">
+                    <!-- Card 4: Entertainment Room -->
+                    <div class="card text-center animated-card h-100">
+                        <img src="img/gym.png" class="card-img-top" alt="Entertainment Room">
+                        <div class="card-body">
+                            <h5 class="card-title">Le studio</h5>
 
-            <!-- Card 4: Entertainment Room -->
-            <div class="card text-center animated-card">
-                <img src="img/gym.png" class="card-img-top" alt="Entertainment Room">
-                <div class="card-body">
-                    <h5 class="card-title">Le studio</h5>
-                    <p class="card-text">Le gym ou studio, dédié à l'entraînement physique et soirées animées de danse.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    </div>
 
-    <!-- New card setup for "Private Rooms," "Exterior Surroundings," and "Common Areas" -->
-<div class="card-deck mt-4">
-    <!-- Card 4: Private Rooms -->
-    <div class="card text-center">
-        <img src="img/private_rooms.png" class="card-img-top" alt="Private Rooms">
-        <div class="card-body">
-            <h5 class="card-title">Chambres privées</h5>
-            <p class="card-text">Les chambres privées confortables pour se reposer...</p>
+
+
+    <div class="container mt-4">
+        <div class="row justify-content-center">
+          <!-- Card 4: Private Rooms -->
+          <div class="col-md-8 mb-4">
+            <div class="card text-center animated-card h-100">
+              <img src="img/bed1.png" class="card-img-top img-fluid" alt="Private Rooms">
+              <div class="card-body">
+                <h5 class="card-title">Chambres privées</h5>
+                <p class="card-text">Les chambres privées confortables pour se reposer...</p>
+              </div>
+            </div>
+          </div>
         </div>
     </div>
 
-    <!-- Card 5: Exterior Surroundings -->
-    <div class="card text-center">
-        <img src="img/exterior.png" class="card-img-top" alt="Exterior Surroundings">
-        <div class="card-body">
-            <h5 class="card-title">Environs extérieurs</h5>
-            <p class="card-text">Les environs extérieurs pour se détendre et profiter de la nature...</p>
-        </div>
-    </div>
 
-    <!-- Card 6: Common Areas -->
-    <div class="card text-center">
-        <img src="img/common_areas.png" class="card-img-top" alt="Common Areas">
-        <div class="card-body">
-            <h5 class="card-title">Espaces communs</h5>
-            <p class="card-text">Les espaces communs pour se rassembler et partager des moments...</p>
-        </div>
+   <!-- Footer section -->
+   <footer class="footer mt-5">
+    <div class="container text-center">
+      <p>&copy; 2023 maisoncommunemtl. All rights reserved.</p>
+      <a href="#" class="back-to-top">Back to Top</a>
     </div>
-</div>
+  </footer>
 
-    <div class="container-fluid mt-4 main-content">
-        <h1>Maison d'or</h1>
-        <p>
-            Bienvenue sur le site de Maison d'or. Ce concept de maison commune est destiné combler tout les besoins d'un adulte seul. Pour se faire, 
-            le concept consiste en une maison de chambres où tous y trouvent leur intimité et tranquilité mais avec aussi 4 pièces communes de base : 
-            Cuisine/snack-bar payant, gym/studio, co-working space et salon/lounge. 
-        </p>
-    </div>
 
     <!-- Add Bootstrap JavaScript and any custom scripts here -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

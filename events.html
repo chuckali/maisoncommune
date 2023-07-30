@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Maison commune</title>
     <!-- Add Bootstrap CSS link here -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <!-- Add your custom styles (styles.css) link here if you have any -->
@@ -62,43 +62,37 @@
     </nav>
 
   <div class="container">
-    <h2>Nous rejoindre</h2>
-    <div class="contact-info">
-      <h4>Adresse:</h4>
-      <p class="copy-text" data-copy="Parc Angrignon, Montréal">Parc Angrignon, Montréal</p>
+    <h2>Upcoming Events</h2>
 
-      <h4>Tel:</h4>
-      <p class="copy-text" data-copy="(514) 942-8957">(514) 942-8957</p>
-
-      <h4>Email:</h4>
-      <p class="copy-text" data-copy="maisoncommunemtl@gmail.com">maisoncommunemtl@gmail.com</p>
+     <!-- Event 1 -->
+     <div class="event">
+        <div class="event-date">DANSE Vendredi 4 août 2023 18h-22h</div>
+        <img src="img/dansecb.png" alt="Event 2">
+        <div class="event-description">
+          <h3>Soirée dansante</h3>
+          <p>Crème Bouboule rue Wellington, Verdun</p>
+          <button class="share-button">Share</button>
+        </div>
+      </div>
+  
+    <!-- Event 2 -->
+    <div class="event">
+      <div class="event-date">BBQ  Samedi 5 août 2023 12h-16h</div>
+      <img src="img/bbqangrignon.png" alt="Event 1">
+      <div class="event-description">
+        <h3>agapé MCI</h3>
+        <p>Au parc Angrignon</p>
+        <button class="share-button">Share</button>
+      </div>
     </div>
 
-    <h2>Écrivez-nous</h2>
-    <form action="process_contact.php" method="POST" enctype="multipart/form-data">
-      <div class="form-group">
-        <label for="name">Nom:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
+   
+    <!-- Add more events as needed -->
 
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
 
-      <div class="form-group">
-        <label for="comments">Commentaires:</label>
-        <textarea id="comments" name="comments" rows="4" required></textarea>
-      </div>
-
-      <div class="form-group">
-        <label for="resume">CV (format PDF):</label>
-        <input type="file" id="resume" name="resume" accept=".pdf">
-      </div>
-
-      <button type="submit">Soumettre</button>
-    </form>
   </div>
+
+
 
    <!-- Footer section -->
    <footer class="footer mt-5">
@@ -115,4 +109,5 @@
 </body>
 
 </html>
-</html>
+
+
