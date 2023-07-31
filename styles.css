@@ -102,14 +102,14 @@ a:hover {
     font-size: 24px; /* Adjust the value to set the desired font size */
 }
 .smaller-logo {
-    width: 200px; /* Adjust the width as needed */
+    width: 150px; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio for the logo */
     
     padding: 10px;
     align-items: center; /* Center the logo vertically within the container */
 }
 .navbar-nav .nav-link {
-    font-size: 36px; /* Adjust the font size as per your preference */
+    font-size: 24px; /* Adjust the font size as per your preference */
 
   }
   .navbar-nav .nav-item {
