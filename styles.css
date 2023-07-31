@@ -6,14 +6,14 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 36px;
     text-align: center;
     margin-bottom: 20px;
     color: #007bff;
 }
 
 h5{
-    font-size: 36px;
+    font-size: 24px;
     text-align: center;
     margin-bottom: 0px;
     color: #272626;
@@ -21,7 +21,7 @@ h5{
 }
 
 p {
-    font-size: 24px;
+    font-size: 16px;
     line-height: 1.6;
 }
 
@@ -75,7 +75,7 @@ a:hover {
 .card-img-top {
     
     width: 100%; /* Make the images fill the width of the card */
-    height: 400px; /* Set the desired height for the images */
+    height: 300px; /* Set the desired height for the images */
     object-fit: cover; /* Crop the images to fit the container */
     border-top-left-radius: 15px; /* Add rounded corners with a radius of 15 pixels */
     border-top-right-radius: 15px; /* Add rounded corners with a radius of 15 pixels */
@@ -219,4 +219,7 @@ a:hover {
   
   nav a.active {
     color: red; /* Change the color of the active link (highlighted) */
+  }
+  .navbar  {
+    padding-right : 0;
   }
