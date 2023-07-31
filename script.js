@@ -25,3 +25,18 @@ function copyToClipboard(text) {
       copyToClipboard(textToCopy);
     });
   });
+
+  //click highlight stay
+// Using pure JavaScript
+document.addEventListener("DOMContentLoaded", function() {
+    var currentURL = window.location.href;
+  
+    var links = document.getElementsByClassName("nav-link");
+    for (var i = 0; i < links.length; i++) {
+      var link = links[i];
+      if (link.href === currentURL) {
+        link.classList.add("active");
+        break; // Add the 'active' class to the first matched link and stop the loop
+      }
+    }
+  });

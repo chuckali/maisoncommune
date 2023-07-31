@@ -43,9 +43,6 @@ a:hover {
     color: #0056b3;
 }
 
-.card-deck .card {
-    animation: fadeInUp 1s ease;
-}
 
 @keyframes fadeInUp {
     0% {
@@ -99,7 +96,7 @@ a:hover {
 }
 .jumbotron p {
     color: white; /* Set the text color for paragraphs inside the jumbotron */
-    font-size: 1.5em;
+    font-size: 2em;
 }
 .card-text {
     font-size: 24px; /* Adjust the value to set the desired font size */
@@ -203,4 +200,23 @@ a:hover {
   .event {
     padding-top: 3em; /* Add padding of 20 pixels to the top */
   }
- 
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  nav a.active {
+    color: red; /* Change the color of the active link (highlighted) */
+  }
